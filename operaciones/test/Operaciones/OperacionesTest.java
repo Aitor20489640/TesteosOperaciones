@@ -79,4 +79,17 @@ public class OperacionesTest {
         //fail("The test case is a prototype.");
     }
     
+    /**
+     * Test of multiplica method with Timeout, of class Operaciones.
+     */
+    @Test(timeout=1)
+    public void testMutiplicatTime() {
+        System.out.println("mutiplica");
+        int a = 35000;
+        int b = 35000;
+        int result =
+        Operaciones.mutiplica(a, b);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    }
 }

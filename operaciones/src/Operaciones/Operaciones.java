@@ -37,7 +37,7 @@ public class Operaciones {
     
     public static int factorial(int a){
         int factorial = a;
-        for (int i = (a - 1); i < 1; i--) {
+        for (int i = (a - 1); i > 1; i--) {
             factorial *= i;
         }
         return factorial;

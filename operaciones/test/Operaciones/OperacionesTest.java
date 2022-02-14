@@ -56,9 +56,9 @@ public class OperacionesTest {
     @Test
     public void testMutiplica() {
         System.out.println("mutiplica");
-        int a = 0;
-        int b = 0;
-        int expResult = 0;
+        int a = 2;
+        int b = 2;
+        int expResult = 4;
         int result = Operaciones.mutiplica(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
@@ -71,8 +71,8 @@ public class OperacionesTest {
     @Test
     public void testFactorial() {
         System.out.println("factorial");
-        int a = 0;
-        int expResult = 0;
+        int a = 3;
+        int expResult = 6;
         int result = Operaciones.factorial(a);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.

@@ -92,4 +92,16 @@ public class OperacionesTest {
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
+    
+    /**
+     * Test of factorial method, of class Operaciones.
+     */
+    @Test(expected=IllegalArgumentException.class)
+    public void testFactorialExeption() {
+        System.out.println("factorial");
+        int a = -3;
+        Operaciones.factorial(a);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    }
 }

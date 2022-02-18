@@ -37,6 +37,10 @@ public class Operaciones {
     
     public static int factorial(int a){
         int factorial = a;
+        
+        if (a < 0){
+            throw new IllegalArgumentException("Factorial Negativo!");
+        }
         for (int i = (a - 1); i > 1; i--) {
             factorial *= i;
         }

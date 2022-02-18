@@ -94,7 +94,7 @@ public class OperacionesTest {
     }
     
     /**
-     * Test of factorial method, of class Operaciones.
+     * Test of factorial method with Exception, of class Operaciones.
      */
     @Test(expected=IllegalArgumentException.class)
     public void testFactorialExeption() {
